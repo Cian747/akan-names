@@ -8,13 +8,19 @@
     background-color: cornsilk;
     border: 3px solid black;
     padding: 20px;
-    margin: auto;
+    margin: 50px;
 }
 body{
     display: grid ;
     grid-area: 500px 500px;
     background-color: rgb(1, 150, 150); 
     text-align: start;
+}
+.description{
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: 400;
+    padding: 8px;
 }
 .akan{
     display: grid;
