@@ -12,3 +12,10 @@ body{
     background-color: teal; 
     text-align: start;
 }
+.akan{
+    display: grid;
+    justify-content: center;
+    margin: auto;
+    padding: 40px;
+    border: 3px solid black;
+}
