@@ -6,15 +6,20 @@
     </head>
     <body>
         <h1 class="topic">AKAN NAME GENERATOR</h1>
+        <div class="description">
+         <p>Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. Here are Ghanian day names.</p>
+         <p>When you fill out thr filled it should generate the name you would be given asper the Ghananian culture.</p>
+        </div>
         <form class="akan">
             <label for="names">Full names:</label> 
-            <input type="text" id="names" placeholder="John Doe" autocomplete="cc-name"><br><br>
+            <input type="text" id="names" placeholder="John Doe" autocomplete="cc-name" required><br><br>
             <label for="email">Email address:</label>
-            <input type="text" id="email" placeholder="johndoe@email.com"><br><br>
+            <input type="text" id="email" placeholder="johndoe@email.com" required><br><br>
             <label for="gender">Enter your gender:</label>
-            <input type="text" id="gender" placeholder="male/female/other"><br><br>
+            <input type="text" id="gender" placeholder="male/female" required><br><br>
             <label for="datemax">Enter your birthday:</label>
-            <input type="date" id="datemax" name="datemax" max="2020-12-31"><br><br>
+            <input type="date" id="datemax" name="datemax" max="2020-12-31" required><br><br>
+            <button class="btn btn-default" type="submit">Submit</button>
          <!-- <label for="century">Which century were you born?</label><br>
           -->
          <!-- <select class="form-control">
