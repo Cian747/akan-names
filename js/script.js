@@ -30,7 +30,8 @@ function akanName(){
     
     let femaleNames = ["Akosua","Adwoa", "Abenaa", "Akua", "Yaa", "Afua","Ama"];
     let maleNames = ["Kwasi", "Kwadwo","Kwabena","Kwaku","Yao","Kofi","Kwame"];
-    
+    let days = ["Monday","Tuesday" ,"Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
+
     if(gender == "male"){
       console.log("Your akan name is " + maleNames[dOfTW])  
     }else if(gender == "female"){
@@ -38,20 +39,4 @@ function akanName(){
     }
 }  
 
-function akanTest(){
-    let date = document.getElementById("date").value
-
-    let YY = date.substr(2,2)
-    
-    let MM = date.substr(5,2)
-    
-    let CC = date.substr(0,2)
-    
-    let DD = date.substr(8)
-
-    console.log(YY);
-    console.log(MM);
-    console.log(CC);
-    console.log(DD);
-}
 // 2020-12-24
