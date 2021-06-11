@@ -5,11 +5,15 @@
     font-weight: 1000;
     text-decoration: underline;
     text-align: center;
+    background-color: cornsilk;
+    border: 3px solid black;
+    padding: 20px;
+    margin: auto;
 }
 body{
     display: grid ;
     grid-area: 500px 500px;
-    background-color: teal; 
+    background-color: rgb(1, 150, 150); 
     text-align: start;
 }
 .akan{
