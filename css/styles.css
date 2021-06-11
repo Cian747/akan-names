@@ -1,0 +1,14 @@
+
+.topic{
+    font-family: fantasy;
+    font-style: italic;
+    font-weight: 1000;
+    text-decoration: underline;
+    text-align: center;
+}
+body{
+    display: grid ;
+    grid-area: 500px 500px;
+    background-color: teal; 
+    text-align: start;
+}
