@@ -33,9 +33,9 @@ function akanName(){
     let days = ["Monday","Tuesday" ,"Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
 
     if(gender.toLowerCase() == "male"){
-      console.log(maleNames[dOfTW])  
+      alert(maleNames[dOfTW])  
     }else if(gender.toLowerCase() == "female"){
-      console.log(femaleNames[dOfTW])
+      alert(femaleNames[dOfTW])
     } 
     // document.getElementById("akan") = (maleNames[dOfTW]) || (femaleNames[dOfTW])
     
