@@ -12,11 +12,11 @@ function akanName(){
     // console.log(YY)
     
     if(MM < 1 || MM > 12){
-      document.getElementById("output") = "fill in correct date."
+      alert("fill in the correct month")
     }else if(CC >20 && CC < 19){
-       document.getElementById("output") = "Fill in the correct century"
+       alert( "Fill in the correct century")
     }else if(DD < 1 && DD > 31){
-       document.getElementById("output") = "The day you put in was incorrect."
+       alert("put in the correct day")
     }
     
     
