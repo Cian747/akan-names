@@ -33,10 +33,12 @@ function akanName(){
     let days = ["Monday","Tuesday" ,"Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
 
     if(gender == "male"){
-      console.log("Your akan name is " + maleNames[dOfTW])  
+      console.log(maleNames[dOfTW])  
     }else if(gender == "female"){
-      console.log("your akan name is " + femaleNames[dOfTW])
+      console.log(femaleNames[dOfTW])
     }
+    Document.getElementById("akan").innerHTML.value
 }  
+
 
 // 2020-12-24
