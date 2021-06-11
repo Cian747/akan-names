@@ -26,18 +26,19 @@ function akanName(){
 
     let gender = document.getElementById("gender").value
     
-    console.log(gender)
+    // console.log(gender)
     
     let femaleNames = ["Akosua","Adwoa", "Abenaa", "Akua", "Yaa", "Afua","Ama"];
     let maleNames = ["Kwasi", "Kwadwo","Kwabena","Kwaku","Yao","Kofi","Kwame"];
     let days = ["Monday","Tuesday" ,"Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
 
-    if(gender == "male"){
+    if(gender.toLowerCase() == "male"){
       console.log(maleNames[dOfTW])  
-    }else if(gender == "female"){
+    }else if(gender.toLowerCase() == "female"){
       console.log(femaleNames[dOfTW])
-    }
-    Document.getElementById("akan").innerHTML.value
+    } 
+    // document.getElementById("akan") = (maleNames[dOfTW]) || (femaleNames[dOfTW])
+    
 }  
 
 
