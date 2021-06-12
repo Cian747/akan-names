@@ -11,20 +11,12 @@ function akanName(){
 
     // console.log(YY)
     
-    if(MM < 1 || MM > 12){
-      alert("fill in the correct month")
-    }else if(CC >20 && CC < 19){
-       alert( "Fill in the correct century")
-    }else if(DD < 1 && DD > 31){
-       alert("put in the correct day")
-    }
-    
-    
     let dOfTW = parseInt(( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) % 7);
 
     // console.log(dOfTW);
 
     let gender = document.getElementById("gender").value
+
     
     // console.log(gender)
     
@@ -36,6 +28,8 @@ function akanName(){
       alert(maleNames[dOfTW])  
     }else if(gender.toLowerCase() == "female"){
       alert(femaleNames[dOfTW])
+    }else if(gender == "other"){
+      alert("Please enter 'male' or 'female' as your gender")
     } 
     // document.getElementById("akan") = (maleNames[dOfTW]) || (femaleNames[dOfTW])
     
