@@ -25,13 +25,15 @@ function akanName(){
     let days = ["Monday","Tuesday" ,"Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
 
     if(gender.toLowerCase() == "male"){
-      alert(maleNames[dOfTW])  
+      console.log("Your name is " + maleNames[dOfTW] + "and you were born on a " + days[dOfTW])  
     }else if(gender.toLowerCase() == "female"){
-      alert(femaleNames[dOfTW])
+      alert("Your name is " + femaleNames[dOfTW] + "and you were born on a " + days[dOfTW])
     }else if(gender == "other"){
       alert("Please enter 'male' or 'female' as your gender")
     } 
-    // document.getElementById("akan") = (maleNames[dOfTW]) || (femaleNames[dOfTW])
+
+    let output;
+    // document.getElementById("output").innerHYML = output;
     
 }  
 
