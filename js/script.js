@@ -1,11 +1,11 @@
 function akanName(){
-    let date = document.getElementById("date").value
+    let date = document.getElementById("date").value;
 
-    let YY = parseInt(date.substr(2,2))
+    let YY = parseInt(date.substr(2,2));
     
-    let MM = parseInt(date.substr(5,2))
+    let MM = parseInt(date.substr(5,2));
     
-    let CC = parseInt(date.substr(0,2))
+    let CC = parseInt(date.substr(0,2));
     
     let DD = parseInt(date.substr(8));
 
@@ -15,7 +15,7 @@ function akanName(){
 
     // console.log(dOfTW);
 
-    let gender = document.getElementById("gender").value
+    let gender = document.getElementById("gender").value;
 
     
     // console.log(gender)
@@ -24,18 +24,20 @@ function akanName(){
     let maleNames = ["Kwasi", "Kwadwo","Kwabena","Kwaku","Yao","Kofi","Kwame"];
     let days = ["Monday","Tuesday" ,"Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
 
-    if(gender.toLowerCase() == "male"){
-      console.log("Your name is " + maleNames[dOfTW] + "and you were born on a " + days[dOfTW])  
-    }else if(gender.toLowerCase() == "female"){
-      alert("Your name is " + femaleNames[dOfTW] + "and you were born on a " + days[dOfTW])
-    }else if(gender == "other"){
-      alert("Please enter 'male' or 'female' as your gender")
-    } 
 
     let output;
-    // document.getElementById("output").innerHYML = output;
+
+    if(gender.toLowerCase() == "male"){
+      output = "Your name is " + maleNames[dOfTW] + " and you were born on a " + days[dOfTW];  
+    }else if(gender.toLowerCase() == "female"){
+      output = "Your name is " + femaleNames[dOfTW] + " and you were born on a " + days[dOfTW];
+    }else if(gender == "other"){
+      alert("Please enter 'male' or 'female' as your gender");
+    } 
+
+  
+    document.getElementById("output").innerHTML = output;
     
 }  
 
 
-// 2020-12-24
